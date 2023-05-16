@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: peachpuff;
+    padding: 10px;
+}
+.navlinks ul li{
+    display: inline-block;
+    margin-top: 8px;
+}
+.navlinks ul li a{
+    color: white;
+    margin-right: 10px;
+    padding: 7px 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 1s linear;
+    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .7);
+}
+.navlinks ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.logo h1{
+    margin-left: 20px;
+}
+.btns button {
+    padding: 7px 15px;
+    border: 0;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, .7);
+}
+.btns button:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+.header{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    width: 100%;
+}
+.row-1{
+    text-align: center;
+    margin-left: 20px;
+}
+.intro{
+    background-color: peachpuff;
+    padding: 30px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+.intro h1{
+    font-size: 50px;
+}
+.intro-2{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 50px;
+}
+.row-2 img{
+    border-radius: 25px;
+    margin-top: 30px;
+    height: 350px;
+}
+.brand{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+.brand h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.brand-logo{
+    display: grid;
+    grid-template-columns: repeat(6,200px);
+    gap: 10px;
+}
+.brand-logo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.collection{
+    margin-top: 40px;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+.collection h1{
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+.outfits{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.outfits img{
+    width: 400px;
+    height: 450px;
+}
+.outfits h2{
+    font-size: 25px;
+}
+.outfits button{
+    background-color: transparent;
+    color: black;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.outfits button:hover{
+    background-color: black;
+    color: white;
+}
+.sales{
+    width: 90%;
+    margin: auto;
+}
+.sales img{
+    width: 1225px;
+    height: 500px;
+}
+.offers{
+    width: 90%;
+    margin: auto;
+}
+.row-6{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    gap: 14px;
+}
+.one img{
+    width: 1348px;
+}
+.container{
+    margin-top: 10px;
+    margin-left: 11px;
+}
+.swiper{
+    width: 91.5%;
+    margin: auto;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.swiper .swiper-button-prev,.swiper .swiper-button-next{
+    color: white;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: white;
+}
+.about{
+    width: 91.5%;
+    margin-left: 20px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: peachpuff;
+    margin-top: 30px;
+}
+.row-8{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 50px;
+}
+.about-img img{
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+}
+.head h1{
+    text-align: center;
+}
+.about-contant span{
+    font-size: 70px;
+    text-align: center;
+}
+.about-contant p{
+    font-size: 17px;
+    line-height: 200%;
+}
+.about-contant  button{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.about-contant  button, a{
+    color: black;
+}
+.about-contant button:hover{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+.about-contant a:hover{
+    color: white;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    gap: 30px;
+}
+.col-2 h1{
+    color: white;
+}
+.col-1 ul li{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+
+}
+.col-1 ul li a{
+    color: white;
+}
+.col-5 ul li{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+
+}
+.col-5 ul li a{
+    color: white;
+}
+.col-2 i{
+    font-size: 30px;
+    margin-left: 15px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    nav{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        color: black;
+    }
+    .btns{
+        margin-top: 20px;
+    }
+    .header{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 200px 100px;
+        gap: 15px;
+    }
+    .intro{
+       padding: 30px 5px;
+    }
+    .row-1{
+        margin-left: 2px;
+    }
+    .intro h1{
+
+        font-size: 30px;
+    }
+    .intro-2{
+       padding: 33px;
+    }
+    .intro-2 p{
+        font-size: 20px;
+        line-height: 211%;
+        padding: 2px;
+    }
+    .intro p{
+        font-size: 10px;
+    }
+    .row-2 img{
+        width: 178px;
+        height: 254px;
+    }
+    .brand-logo{
+        display: grid;
+        grid-template-columns: repeat(2,200px);
+    }
+    .brand-logo img{
+        width: 150px;
+        height: 150px;
+    }
+    .outfits{
+        display: grid;
+        grid-template-columns: repeat(2,170px);
+        gap: 5px;
+        margin-left: 3px;
+        box-sizing: border-box;
+    }
+    .outfits img{
+        width: 170px;
+    }
+    .sales img{
+        width: 360px;
+        margin-right: 10px;
+    }
+    .row-6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    .row-6 img{
+        width: 350px;
+        height: 350px;
+    }
+    .one img{
+        width: 393px;
+        height: 40vh;
+    }
+    .container{
+        margin-left: 7px;
+    }
+    .row-8{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+    .about-img img{
+        width: 300px;
+        height: 400px;
+    }
+    .about-contant p{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
